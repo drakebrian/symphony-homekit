@@ -22,7 +22,7 @@ Tested on Ubuntu 18.04 and macOS 10.15 with Python 3.6 and Python 3.8. Should be
 `python3 -m pip install -r requirements.txt`
 
 2. Set environment variables    
-`$ export SYMPHONY_USER='johndoe@gmail.com'`
+`$ export SYMPHONY_USER='johndoe@gmail.com'`    
 `$ export SYMPHONY_PWD='password'`
 
 3. Edit accessory.py if desired
@@ -34,7 +34,7 @@ Tested on Ubuntu 18.04 and macOS 10.15 with Python 3.6 and Python 3.8. Should be
 4. Test accessory    
 `python3 accessory.py`
 
-5. Install as system service (optional)
+5. Install as system service (optional)    
 Full instructions coming, see HAP-python repo for examples.
 
 ## Credits
