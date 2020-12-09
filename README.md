@@ -1,5 +1,5 @@
 # symphony-homekit
-Adds WaterFurnace Symphony room temperature and humidity to HomeKit 
+Adds WaterFurnace Symphony temperature and humidity to HomeKit 
 
 ![Figure 1](fig-1.jpg)  
 *Accessory as seen in Home app*
@@ -18,10 +18,10 @@ It is not a thermostat accessory and is not interactive for several reasons, the
 ## Getting Started
 Tested on Ubuntu 18.04 and macOS 10.15 with Python 3.6 and Python 3.8. Should be compatible with \*nix based systems with Python 3.5+
 
-1. Install requirements (virtual environment recommended)  
+1. Install requirements (virtual environment recommended)    
 `python3 -m pip install -r requirements.txt`
 
-2. Set environment variables  
+2. Set environment variables    
 `$ export SYMPHONY_USER='johndoe@gmail.com'`
 `$ export SYMPHONY_PWD='password'`
 
@@ -31,7 +31,7 @@ Tested on Ubuntu 18.04 and macOS 10.15 with Python 3.6 and Python 3.8. Should be
 	* CELSIUS - False to use Fahrenheit
 	* SETPOINTS - True to show thermostat setpoints instead of actual readings
 
-4. Test accessory  
+4. Test accessory    
 `python3 accessory.py`
 
 5. Install as system service (optional)
