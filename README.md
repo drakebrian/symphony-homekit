@@ -1,7 +1,7 @@
 # symphony-homekit
 Adds WaterFurnace Symphony room temperature and humidity to HomeKit 
 
-![Figure 1](fig-1.jpg)
+![Figure 1](fig-1.jpg)  
 *Accessory as seen in Home app*
 
 This virtual accessory is designed to show either the current room (air) temp and humidity readings, or the temperature and humidity setpoints, from Symphony enabled thermostats on WaterFurnace geothermal systems. 
