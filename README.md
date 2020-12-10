@@ -47,3 +47,4 @@ This project would not be possible without the HomeKit Automation Protocol proje
 ## To Do
 * Evaluate additional parameters for more accessory options
 * Verify python package version numbers
+* Fix pyhap incompatibility
