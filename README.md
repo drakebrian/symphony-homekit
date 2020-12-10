@@ -21,21 +21,25 @@ Tested on Ubuntu 18.04 and macOS 10.15 with Python 3.6 and Python 3.8. Should be
 1. Install requirements (virtual environment recommended)    
 `python3 -m pip install -r requirements.txt`
 
+#### Known Issue - Use patched pyhap version, pip version is incompatible [link](https://github.com/drakebrian/pyhap)
+
 2. Set environment variables    
 `$ export SYMPHONY_USER='johndoe@gmail.com'`    
 `$ export SYMPHONY_PWD='password'`
 
-3. Edit accessory.py if desired
-	* ACC_NAME - Accessory name shown in HomeKit on pairing, can be changed in Home app
-	* USE_PORT - Custom port number, default is 51826
-	* CELSIUS - False to use Fahrenheit
-	* SETPOINTS - True to show thermostat setpoints instead of actual readings
+3. Edit config.yaml 
+ * name - Accessory name shown in HomeKit on pairing, can be changed in Home app
+ * setpoint - True to show thermostat setpoints instead of actual readings
+ * celsius - False to use Fahrenheit
+ * port - Define port accessory runs on, default is 51826
+ * polling_interval - Interval in seconds to poll Symphony websocket    
+     * Must be less than 30 seconds or websocket will close. Symphony website polls every 5 seconds.    
 
 4. Test accessory    
 `python3 accessory.py`
 
 5. Install as system service (optional)    
-Full instructions coming, see HAP-python repo for examples.
+Full instructions coming, see [HAP-python repo](https://github.com/ikalchev/HAP-python) for examples.
 
 ## Credits
 This project would not be possible without the HomeKit Automation Protocol project known as [HAP-python by ikalchev](https://github.com/ikalchev/HAP-python) and the [waterfurnace package by sdague](https://github.com/sdague/waterfurnace).

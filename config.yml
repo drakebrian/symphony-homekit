@@ -1,0 +1,10 @@
+accessory: 
+  name: Thermostat
+  functions:
+    temperature:
+      setpoint: false
+      celsius: false
+    humidity:
+      setpoint: false
+  port: 51826
+  polling_interval: 10 # Max 30
