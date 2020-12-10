@@ -21,7 +21,7 @@ Tested on Ubuntu 18.04 and macOS 10.15 with Python 3.6 and Python 3.8. Should be
 1. Install requirements (virtual environment recommended)    
 `python3 -m pip install -r requirements.txt`
 
-#### Known Issue - Use patched pyhap version, pip version is incompatible [link](https://github.com/drakebrian/pyhap)
+#### Known Issue - Use patched pyhap version, pip version is incompatible: [link](https://github.com/drakebrian/pyhap)
 
 2. Set environment variables    
 `$ export SYMPHONY_USER='johndoe@gmail.com'`    
@@ -33,7 +33,7 @@ Tested on Ubuntu 18.04 and macOS 10.15 with Python 3.6 and Python 3.8. Should be
  * celsius - False to use Fahrenheit
  * port - Define port accessory runs on, default is 51826
  * polling_interval - Interval in seconds to poll Symphony websocket    
-     * Must be less than 30 seconds or websocket will close. Symphony website polls every 5 seconds.    
+     * Must be less than 30 seconds or websocket will close. For reference, Symphony website polls every 5 seconds.    
 
 4. Test accessory    
 `python3 accessory.py`
