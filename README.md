@@ -1,3 +1,6 @@
+## Archived
+This project is archived as there are [better options for connecting a WaterFurnace theromostat](https://github.com/ccutrer/waterfurnace_aurora), detailed guide in the works.
+
 # symphony-homekit
 Adds WaterFurnace Symphony temperature and humidity to HomeKit 
 
